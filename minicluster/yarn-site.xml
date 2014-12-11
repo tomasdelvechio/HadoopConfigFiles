@@ -41,14 +41,14 @@
         <name>yarn.nodemanager.vmem-pmem-ratio</name>
         <value>2.5</value>
     </property>
-    <property>
+    <!--property>
         <name>yarn.app.mapreduce.am.resource.mb</name>
         <value>3048</value>
     </property>
     <property>
         <name>yarn.app.mapreduce.am.command-opts</name>
         <value>2468</value>
-    </property>
+    </property-->
     <property>
         <name>yarn.nodemanager.webapp.address</name>
         <value>0.0.0.0:8042</value>
