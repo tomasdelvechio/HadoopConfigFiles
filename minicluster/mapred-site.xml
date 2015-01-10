@@ -30,12 +30,12 @@
         <name>mapreduce.reduce.java.opts</name>
         <value>-Xmx2500M</value>
     </property>
-    <property>
+    <!--property>
         <name>mapreduce.map.memory.mb</name>
         <value>3084</value>
     </property>
     <property>
         <name>mapreduce.reduce.memory.mb</name>
         <value>3084</value>
-    </property>
+    </property-->
 </configuration>
