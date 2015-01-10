@@ -24,18 +24,18 @@
     <property>
         <name>mapreduce.map.java.opts</name>
         <!--value>-Xmx1240M # Calculado por modelo de Hortonwork</value--> 
-        <value>-Xmx2500M</value>
+        <value>-Xmx4000M</value>
     </property>
     <property>
         <name>mapreduce.reduce.java.opts</name>
-        <value>-Xmx2500M</value>
+        <value>-Xmx6500M</value>
     </property>
-    <!--property>
+    <property>
         <name>mapreduce.map.memory.mb</name>
-        <value>3084</value>
+        <value>3072</value>
     </property>
     <property>
         <name>mapreduce.reduce.memory.mb</name>
-        <value>3084</value>
-    </property-->
+        <value>6168</value>
+    </property>
 </configuration>
