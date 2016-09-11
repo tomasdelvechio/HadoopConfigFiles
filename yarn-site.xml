@@ -53,5 +53,9 @@
    <name>yarn.app.mapreduce.am.command-opts</name>
    <value>-Xmx1024m</value>
 </property>
+<property>
+   <name>yarn.log-aggregation-enable</name>
+   <value>true</value>
+</property>
 
 </configuration>
