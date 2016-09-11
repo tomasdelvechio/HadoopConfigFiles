@@ -27,6 +27,6 @@
 </property>
 <property>
    <name>dfs.datanode.data.dir</name>
-   <value>file:///usr/local/hadoop/hadoop_store/hdfs/datanode</value>
+   <value>file:///usr/local/hadoop/hadoop_store/hdfs/datanode,file:///discoExtra</value>
 </property>
 </configuration>
