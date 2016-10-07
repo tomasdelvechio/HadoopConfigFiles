@@ -41,4 +41,8 @@
    <name>mapreduce.task.io.sort.mb</name>
    <value>512</value>
 </property>
+<property>
+   <name>mapreduce.reduce.shuffle.input.buffer.percent</name>
+   <value>0.6</value>
+</property>
 </configuration>
