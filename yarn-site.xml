@@ -22,20 +22,12 @@
     <value>org.apache.hadoop.mapred.ShuffleHandler</value>
 </property>
 <property>
-   <name>yarn.nodemanager.resource.memory-mb</name>
-   <value>4096</value>
-</property>
-<property>
    <name>yarn.resourcemanager.hostname</name>
    <value>master</value>
 </property>
 <property>
    <name>yarn.scheduler.minimum-allocation-mb</name>
-   <value>500</value>
-</property>
-<property>
-   <name>yarn.scheduler.minimum-allocation-mb</name>
-   <value>1536</value>
+   <value>2048</value>
 </property>
 <property>
    <name>yarn.scheduler.maximum-allocation-mb</name>
@@ -47,11 +39,11 @@
 </property>
 <property>
    <name>yarn.app.mapreduce.am.resource.mb</name>
-   <value>1536</value>
+   <value>2048</value>
 </property>
 <property>
    <name>yarn.app.mapreduce.am.command-opts</name>
-   <value>-Xmx1024m</value>
+   <value>-Xmx1536m</value>
 </property>
 <property>
    <name>yarn.log-aggregation-enable</name>
